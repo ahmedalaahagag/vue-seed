@@ -1,7 +1,7 @@
 {
   "name": "vue-seed",
   "version": "0.0.0",
-  "description": "",
+  "description": "A Vue seed project for Bootstrap, Grunt, Express, etc.",
   "main": "sever.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
