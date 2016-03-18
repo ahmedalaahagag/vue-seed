@@ -25,7 +25,7 @@ module.exports = function(grunt)
             },
             vendor: {
                 expand: true,
-                src: ['vendor/**/*.css', 'vendor/**/*.js', 'vendor/font-awesome/**/*', 'vendor/rpg-awesome/**/*'],
+                src: ['vendor/**/*.css', 'vendor/**/*.js', 'vendor/font-awesome/**/*'],
                 dest: 'dist'
             }
         },
