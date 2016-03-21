@@ -78,7 +78,7 @@ var server = app.listen(config.http.port || 3000, function()
     var host = server.address().address;
     var port = server.address().port;
 
-    logger.info('Vue-seed v%s listening at http://%s:%s', require('../package').version, host, port);
+    logger.info('VueSeed v%s listening at http://%s:%s', require('../package').version, host, port);
 });
 
 //----------------------------------------------------------------------------------------------------------------------
